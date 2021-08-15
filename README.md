@@ -1,4 +1,4 @@
-Enter Project Name
+Social Scholar
 ==================
 ## What this project does
 
