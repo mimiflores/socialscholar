@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+
+	font-family: 'Playfair Display', serif;
+}
+
+#bigger {
+
+	font-size: 30px;
+
+}
+
+.dropdown {
+
+	position: relative;
+	display: inline-block;
+
+
+}
+
+.options {
+
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 335px;
+
+}
+
+.options a {
+
+
+	color: blue;
+	text-decoration: none;
+	display: block;
+	padding: 12px 14px;
+
+}
+
+.dropbutton {
+
+	padding: 12px;
+	font-size: 20px;
+	color: white;
+	background-color: #0EA3ED;
+	border: none;
+
+}
+
+.dropdown:hover .options {
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+body {
+	background-color: #A6B1B5;
+	color: #000033;
+	text-align: center;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	text-align: left;
+}
+
+h3 {
+	text-align: center;
+}
+
+
+nav {
+	color: #000033;
+	background-color: #6699;
+	height: 25px;
+	width: 100%;
+
+	max-width: 600px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+nav a {
+
+	text-decoration: none;
+	color: black;
+	margin: 0 12px;
+}
+
+nav>a:hover {
+	color: white;
+}
+
+a:link {
+	color: #6699;
+}
